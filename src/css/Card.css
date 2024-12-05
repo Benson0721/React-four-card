@@ -16,10 +16,11 @@
 }
 
 .card-border {
-  margin: 32px 32px 0px;
   border-radius: 8px;
   -webkit-box-shadow: 0 15px 30px -11px rgba(131, 166, 210, 0.5);
           box-shadow: 0 15px 30px -11px rgba(131, 166, 210, 0.5);
+  margin: 32px 32px 0px;
+  background-color: white;
 }
 .card-border:last-child {
   margin-bottom: 32px;
@@ -28,11 +29,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 10%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 10%;
 }
 .card-border .card-box .box-item h2 {
   font-size: 1.34rem;
@@ -79,5 +80,4 @@ padding-top: 5px; /* 調整內邊距以顯示直線 */ /*
 background: $Red; /* 設置顏色 */ /*
 z-index: 1; /* 保證在最上面 */ /*
 }
-*/
-/*# sourceMappingURL=Card.css.map */
+*//*# sourceMappingURL=card.css.map */
