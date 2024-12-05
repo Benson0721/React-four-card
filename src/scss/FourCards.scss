@@ -1,0 +1,30 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+@media only screen and (min-width:1440px)  {
+    
+    .layout{
+        display: grid;
+        grid-template-columns: 350px 350px 350px ;
+        grid-template-rows: 250px 250px;
+        grid-gap: 30px;
+        margin-bottom: 5%;
+        .a,.c{
+            margin-top: 140px;
+        }
+        .d{
+            grid-area: 2 / 2 / 3 / 3;
+        }
+        
+        
+    }
+
+
+
+
+}

@@ -1,0 +1,93 @@
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+
+
+.Red{
+    border-top: 5px solid $Red ;
+}
+.Cyan{
+    border-top: 5px solid $Cyan ;
+}
+.Orange{
+    border-top: 5px solid $Orange ;
+}
+.Blue{
+    border-top: 5px solid $Blue ;    
+}
+.card-border{
+    border-radius:8px;
+    box-shadow: 0 15px 30px -11px rgba(#83A6D2,50%);
+    margin: 32px 32px 0px;
+    &:last-child{
+        margin-bottom: 32px;
+    }
+    .card-box{
+        display: flex;
+        flex-direction: column;
+
+        margin: 10%;
+        .box-item{
+            h2{
+                font-size: 1.34rem;
+            }
+            p{
+                font-size: 0.87rem;
+            }
+        }
+        .icon{
+            width: 64px;
+            height: 64px;
+            align-self: end;
+        }
+    }
+}
+
+@media only screen and (min-width:1440px)  {
+    .card-border{
+        margin: 0px;
+        min-width: 350px;
+        min-height: 250px;    
+        &:last-child{
+        margin-bottom: 0px;
+        }
+            .card-box{
+                .icon{
+                    margin-top: 10%;
+                }
+            }
+    
+    }
+}
+    
+  
+
+
+
+
+
+
+
+
+
+/*純直線
+.Red {
+    position: relative;
+    border-top: 3px solid transparent; /* 透明的邊框 *//*
+    background: linear-gradient(to right, $Red 0%, $Red 100%);
+    background-clip: padding-box; /* 確保背景不會超出邊框 *//*
+    padding-top: 5px; /* 調整內邊距以顯示直線 *//*
+}
+
+.Red::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px; /* 與邊框相同的高度 *//*
+    background: $Red; /* 設置顏色 *//*
+    z-index: 1; /* 保證在最上面 *//*
+}
+*/
