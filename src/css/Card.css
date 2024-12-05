@@ -1,32 +1,38 @@
 @charset "UTF-8";
 .Red {
-  border-top: 5px solid hsl(0, 78%, 62%);
+  border-top: 4px solid hsl(0, 78%, 62%);
 }
 
 .Cyan {
-  border-top: 5px solid hsl(180, 62%, 55%);
+  border-top: 4px solid hsl(180, 62%, 55%);
 }
 
 .Orange {
-  border-top: 5px solid hsl(34, 97%, 64%);
+  border-top: 4px solid hsl(34, 97%, 64%);
 }
 
 .Blue {
-  border-top: 5px solid hsl(212, 86%, 64%);
+  border-top: 4px solid hsl(212, 86%, 64%);
 }
 
 .card-border {
   margin: 32px 32px 0px;
   border-radius: 8px;
-  box-shadow: 0 15px 30px -11px rgba(131, 166, 210, 0.5);
+  -webkit-box-shadow: 0 15px 30px -11px rgba(131, 166, 210, 0.5);
+          box-shadow: 0 15px 30px -11px rgba(131, 166, 210, 0.5);
 }
 .card-border:last-child {
   margin-bottom: 32px;
 }
 .card-border .card-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 10%;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .card-border .card-box .box-item h2 {
   font-size: 1.34rem;
@@ -37,7 +43,8 @@
 .card-border .card-box .icon {
   width: 64px;
   height: 64px;
-  align-self: end;
+  -ms-flex-item-align: end;
+      align-self: end;
 }
 
 @media only screen and (min-width: 1440px) {
