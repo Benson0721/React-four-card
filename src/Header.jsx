@@ -7,7 +7,7 @@ export default function Header() {
 
     return (
         <>
-            <div className="header" role="Header">
+            <div className="header">
                 <h1 className="font-200">
                     Reliable, efficient delivery
                 </h1>
