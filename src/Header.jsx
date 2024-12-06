@@ -1,24 +1,16 @@
-import "./css/Header.css"
-
-
-
+import "./css/Header.css";
 
 export default function Header() {
-
-    return (
-        <>
-            <div className="header">
-                <h1 className="font-200">
-                    Reliable, efficient delivery
-                </h1>
-                <h1 className="font-600">
-                    Powered by Technology
-                </h1>
-                <p>
-                    Our Artificial Intelligence powered tools use millions of project data points
-                    to ensure that your project is successful
-                </p>
-            </div>
-        </>
-    )
+  return (
+    <>
+      <header className="header">
+        <h1 className="font-200">Reliable, efficient delivery</h1>
+        <b className="font-600">Powered by Technology</b>
+        <p>
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </header>
+    </>
+  );
 }

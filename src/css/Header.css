@@ -2,11 +2,15 @@ h1 {
   font-size: 1.6rem;
 }
 
+b {
+  font-size: 1.6rem;
+}
+
 .header {
   width: 100%;
-  margin: 20% 20% 10%;
-  text-align: center;
   max-width: 311px;
+  text-align: center;
+  margin: 20% 20% 10%;
 }
 .header .font-200 {
   font-weight: 200;
@@ -20,8 +24,7 @@ h1 {
     font-size: 2.4rem;
   }
   .header {
-    margin: 5.5% 0 4.5% 0;
     max-width: 540px;
+    margin: 5.5% 0 4.5% 0;
   }
-}
-/*# sourceMappingURL=Header.css.map */
+}/*# sourceMappingURL=Header.css.map */

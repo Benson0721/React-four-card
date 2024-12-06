@@ -19,11 +19,11 @@
     grid-gap: 30px;
     margin-bottom: 5%;
   }
-  .layout .a, .layout .d {
+  .layout .a,
+  .layout .d {
     margin-top: 140px;
   }
   .layout .c {
     grid-area: 2/2/3/3;
   }
-}
-/*# sourceMappingURL=FourCards.css.map */
+}/*# sourceMappingURL=FourCards.css.map */

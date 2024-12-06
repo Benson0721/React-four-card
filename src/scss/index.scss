@@ -6,18 +6,16 @@ $DarkBlue: hsl(234, 12%, 34%);
 $GrayishBlue: hsl(229, 6%, 66%);
 $LightGray: hsl(0, 0%, 98%);
 
-
-h1,h2{
-    margin: 0px;
+h1,
+h2 {
+  margin: 0px;
 }
 
-
-
 body {
-  background-color:$LightGray;
+  background-color: $LightGray;
   font-family: "Poppins", serif;
   font-weight: 400;
-  color:$DarkBlue;
+  color: $DarkBlue;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,18 +24,18 @@ body {
   width: 100%;
   height: 100%;
   margin: 0%;
-    p{
-        opacity: 50%;
-    }
+  p {
+    opacity: 50%;
+  }
 }
-#root{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+#root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .attribution {
   font-size: 12px;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
