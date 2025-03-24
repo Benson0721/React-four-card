@@ -1,4 +1,4 @@
-import "./css/Card.css";
+import "./scss/Card.scss"
 
 export default function Card({ card }) {
   const { color, header, content, icon, id } = card;

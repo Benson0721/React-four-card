@@ -1,5 +1,5 @@
 import Card from "./Card";
-import "./css/FourCards.css";
+import "./scss/FourCards.scss";
 
 const cards = [
   {
